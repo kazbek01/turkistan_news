@@ -344,6 +344,8 @@ body {
   font-weight: bold;
   color: white;
   line-height: 1.2;
+  height: 66px;
+  overflow: hidden;
 }
 
 .news-title:hover {
@@ -381,6 +383,8 @@ body {
   font-weight: bold;
   color: #201f26;
   line-height: 1.33;
+  height: 30px;
+  overflow: hidden;
 }
 
 .news-title-sm:hover {
@@ -435,8 +439,9 @@ body {
 }
 
 .news-list-text .news-title-sm {
+  margin-top: 0;
   margin-bottom: 10px;
-  height: 60px;
+  height: 45px;
   overflow-y: hidden;
 }
 
@@ -466,7 +471,8 @@ body {
 }
 
 .news-feed .news-title-sm {
-  height: auto;
+  height: 30px;
+  overflow: hidden;
   margin-bottom: 0;
 }
 
@@ -845,6 +851,7 @@ form.comment-form button {
     float: left;
   }
   .news-title {
+    height: 72px;
     font-size: 15px;
   }
   .trand-news {
@@ -863,10 +870,11 @@ form.comment-form button {
     padding-left: 0;
   }
   .trand-small img{
-    height: 270px;
+    height: 240px;
   }
   .news-title-sm{
-    font-size: 15px;
+    font-size: 14px;
+    height: 62px;
   }
   footer {
     margin-left: -20px;
@@ -926,6 +934,9 @@ form.comment-form button {
   .bg-box {
     margin: 10px auto 0;
   }
+  .news-list-text .news-title-sm{
+    height: 35px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -970,10 +981,15 @@ form.comment-form button {
     margin-top: 0;
   }
   .news-title {
+    height: 56px;
     font-size: 15px;
   }
   .news-title-sm {
+    height: 36px;
     font-size: 15px;
+  }
+  .news-list-text .news-title-sm{
+    height: 40px;
   }
   footer {
     margin-left: -20px;
@@ -985,8 +1001,12 @@ form.comment-form button {
   .i-close {
     display: block;
   }
+
+  .trand-news img{
+    height: 330px;
+  }
   .trand-small img{
-    height: 270px;
+    height: 260px;
   }
 
 }
