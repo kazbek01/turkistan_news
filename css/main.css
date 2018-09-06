@@ -149,8 +149,11 @@ body {
 
 .menu li a {
   display: inline-block;
-  padding: 12px 36px;
-  font-size: 15px;
+  white-space: normal;
+  word-break: break-all;
+  width: 180px;
+  padding: 12px 15px;
+  font-size: 13px;
   font-weight: 500;
   color: white;
   text-transform: uppercase;
@@ -299,6 +302,7 @@ body {
 }
 
 .trand-news {
+  height: 270px;
   position: relative;
 }
 
@@ -390,7 +394,9 @@ body {
 .news-title-sm:hover {
   color: #ff5258;
 }
-
+.trand-small{
+  height: 125px;
+}
 .trand-small img {
   height: 125px;
 }
@@ -855,13 +861,20 @@ form.comment-form button {
     font-size: 15px;
   }
   .trand-news {
+    width: 100%;
+    height: 270px;
     margin-right: -15px;
   }
   .trand-small {
+    width: 100%;
+    height: 240px;
     margin: 10px 0 10px -15px;
   }
+  .prxs{
+    padding-right: 0;
+  }
   .pr15 {
-    padding-right: 15px;
+    padding-right: 0;
   }
   .mtxs {
     margin-top: 0;
@@ -969,13 +982,20 @@ form.comment-form button {
     padding-left: 5px;
   }
   .trand-news {
+    width: 100%;
+    height: 330px;
     margin-right: -15px;
   }
   .trand-small {
+    width: 100%;
+    height: 260px;
     margin: 10px 0 10px -15px;
   }
   .pr15 {
     padding-right: 15px;
+  }
+  .prxs{
+    padding-right: 0;
   }
   .mtxs {
     margin-top: 0;
@@ -1032,9 +1052,13 @@ form.comment-form button {
     padding-left: 5px;
   }
   .trand-news {
+    height: 270px;
+    width: 100%;
     margin-right: -15px;
   }
   .trand-small {
+    width: 100%;
+    height: 125px;
     margin: 0px 0 10px 0px;
   }
   .pr15 {
@@ -1055,5 +1079,8 @@ form.comment-form button {
   footer p {
     text-align: center;
     font-size: 14px;
+  }
+  .prmd{
+    padding-right: 0;
   }
 }
