@@ -46,9 +46,16 @@
                         <li><a href="#">Kz</a></li>
                     </ul>
                     <div class="weather">
-                        <i class="icon cloud"></i>
-                        <span>+24</span>
-                        <span>- ТУРКЕСТАН</span>
+                        <a href="#" class="dropdown-toggle d-link" data-toggle="dropdown">
+                            <i class="icon cloud"></i>
+                            <span>+24</span>
+                            <span>- ТУРКЕСТАН</span>
+                        </a>
+                        <ul class="w-list dropdown-menu">
+                            <li><a href="#"><span>АСТАНА</span></a></li>
+                            <li><a href="#"><span>ШЫМКЕНТ</span></a></li>
+                            <li><a href="#"><span>АЛМАТЫ</span></a><li>
+                        </ul>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -60,28 +67,16 @@
                     <i class="icon i-search"></i>
                 </div>
                 <div class="col-md-7 col-sm-7 other pr0">
-                    <div class="weather hidden-xs">
+                    <div class="weather hidden-xs dropdown">
                         <a href="#" class="dropdown-toggle d-link" data-toggle="dropdown">
                             <i class="icon cloud"></i>
                             <span>+24</span>
                             <span>- ТУРКЕСТАН</span>
                         </a>
                         <ul class="w-list dropdown-menu">
-                            <li>
-                                <a href="#">
-                                    <span>АСТАНА</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>ШЫМКЕНТ</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>АЛМАТЫ</span>
-                                </a>
-                            <li>
+                            <li><a href="#"><span>АСТАНА</span></a></li>
+                            <li><a href="#"><span>ШЫМКЕНТ</span></a></li>
+                            <li><a href="#"><span>АЛМАТЫ</span></a><li>
                         </ul>
                     </div>
                     <ul class="currency">
@@ -582,8 +577,9 @@
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/libs.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>

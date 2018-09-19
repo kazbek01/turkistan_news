@@ -350,7 +350,7 @@ body {
   font-weight: bold;
   color: white;
   line-height: 1.2;
-  height: 66px;
+  height: 62px;
   overflow: hidden;
 }
 
@@ -590,7 +590,7 @@ footer p {
 
 .block-item .news-title {
   color: #201f26;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .block-item .news-title:hover {
@@ -844,9 +844,13 @@ form.comment-form button {
     padding: 0 8px;
   }
   .weather {
+    position: relative;
     margin-top: 5px;
     float: right;
     margin-right: 10px;
+  }
+  .dropdown-menu{
+    min-width: 137px;
   }
   .burger-menu {
     position: relative;
