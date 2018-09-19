@@ -243,7 +243,9 @@ body {
   font-size: 13px;
   color: #201f26;
 }
-
+.d-link:hover,.d-link:focus{
+  text-decoration: none;
+}
 .currency, .language {
   display: -webkit-box;
   display: -webkit-flex;
